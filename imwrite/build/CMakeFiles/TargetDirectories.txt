@@ -1,0 +1,1 @@
+/home/firefly/workspace/egg_count_projects-master/imwrite/build/CMakeFiles/imwrite.dir

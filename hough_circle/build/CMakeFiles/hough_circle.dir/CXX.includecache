@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/firefly/workspace/egg_count_projects-master/hough_circle/HoughCircle_Demo.cpp
+opencv2/highgui/highgui.hpp
+/home/firefly/workspace/egg_count_projects-master/hough_circle/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/home/firefly/workspace/egg_count_projects-master/hough_circle/opencv2/imgproc/imgproc.hpp
+iostream
+-
+

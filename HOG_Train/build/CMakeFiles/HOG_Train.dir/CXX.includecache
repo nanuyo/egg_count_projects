@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hjpark/workspace/egg_count_projects/HOG_Train/HOG_Train.cpp
+opencv2/imgproc/imgproc.hpp
+/home/hjpark/workspace/egg_count_projects/HOG_Train/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/hjpark/workspace/egg_count_projects/HOG_Train/opencv2/highgui/highgui.hpp
+opencv2/ml/ml.hpp
+/home/hjpark/workspace/egg_count_projects/HOG_Train/opencv2/ml/ml.hpp
+opencv2/objdetect/objdetect.hpp
+/home/hjpark/workspace/egg_count_projects/HOG_Train/opencv2/objdetect/objdetect.hpp
+iostream
+-
+time.h
+-
+
