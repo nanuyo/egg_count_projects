@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/firefly/workspace/egg_count_projects-master/hough_circle_cam/HoughCircle_Cam.cpp
+/home/pi/workspace/egg_count_projects/hough_circle_cam/HoughCircle_Cam.cpp
 opencv2/highgui/highgui.hpp
-/home/firefly/workspace/egg_count_projects-master/hough_circle_cam/opencv2/highgui/highgui.hpp
+/home/pi/workspace/egg_count_projects/hough_circle_cam/opencv2/highgui/highgui.hpp
 opencv2/imgproc/imgproc.hpp
-/home/firefly/workspace/egg_count_projects-master/hough_circle_cam/opencv2/imgproc/imgproc.hpp
+/home/pi/workspace/egg_count_projects/hough_circle_cam/opencv2/imgproc/imgproc.hpp
 iostream
 -
 

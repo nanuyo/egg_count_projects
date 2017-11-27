@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/firefly/workspace/egg_count_projects-master/img_sub/img_sub.cpp
+/home/pi/workspace/egg_count_projects/img_sub/img_sub.cpp
 opencv2/opencv.hpp
 -
 stdio.h

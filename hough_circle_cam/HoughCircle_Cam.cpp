@@ -64,10 +64,10 @@ namespace
         HoughCircles( src_gray, circles, CV_HOUGH_GRADIENT, 1, src_gray.rows/8, cannyThreshold, accumulatorThreshold, 0, 0 );
 
         // clone the colour, input image for displaying purposes
-        Mat display = src_display.clone();
+//        Mat display = src_display.clone();
         for( size_t i = 0; i < circles.size(); i++ )
         {
-            Point center(cvRound(circles[i][0]), cvRound(circles[i][1]));
+  //          Point center(cvRound(circles[i][0]), cvRound(circles[i][1]));
             int radius = cvRound(circles[i][2]);
 #if 0   // circle center
             circle( display, center, 3, Scalar(0,255,0), -1, 8, 0 );
@@ -109,8 +109,9 @@ cout << "maxcnt:" << maxcnt << "maxeggcount:" << maxeggcount <<  endl;
 		  }
 		}
 #endif
-putText(display, "Eggs:" + intToString(maxeggcount),Point(10,50),2,2,Scalar(255,0,0),2);
-  imshow( windowName, display);
+//putText(display, "Eggs:" + intToString(maxeggcount),Point(10,50),2,2,Scalar(255,0,0),2);
+                cout << maxeggcount ;
+  //imshow( windowName, display);
         	retrycnt = 0;
         	maxeggcount = 0;
         	
@@ -133,6 +134,8 @@ int main(int argc, char** argv)
     int maxeggcnt = 0, eggcnt=0;
     char key;
 
+    cout << "test";
+
    VideoCapture capture(0); // capture video from webcam
 key= waitKey(1000);
 
@@ -141,9 +144,9 @@ key= waitKey(1000);
        int accumulatorThreshold = accumulatorThresholdInitialValue;
 
        // create the main window, and attach the trackbars
-       namedWindow( windowName, WINDOW_AUTOSIZE );
-       createTrackbar(cannyThresholdTrackbarName, windowName, &cannyThreshold,maxCannyThreshold);
-       createTrackbar(accumulatorThresholdTrackbarName, windowName, &accumulatorThreshold, maxAccumulatorThreshold);
+ //      namedWindow( windowName, WINDOW_AUTOSIZE );
+   //    createTrackbar(cannyThresholdTrackbarName, windowName, &cannyThreshold,maxCannyThreshold);
+     //  createTrackbar(accumulatorThresholdTrackbarName, windowName, &accumulatorThreshold, maxAccumulatorThreshold);
 
     while( true )
     {
